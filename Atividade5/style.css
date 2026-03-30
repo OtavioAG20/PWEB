@@ -1,0 +1,77 @@
+body{
+    font: 100% Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#page{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 420px){
+    #page{
+        background-color:gray;
+    }
+     .CorText::after{
+        content: "Cinza";
+    }
+}
+@media screen and (min-width: 421px) and (max-width: 768px){
+    #page{
+        background-color: orange;
+    }
+    .CorText::after{
+        content: "Laranja";
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1024px){
+    #page{
+        background-color: pink;
+    }
+    .CorText::after{
+        content: "Rosa";
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1080px){
+    #page{
+        background-color: red;
+    }
+     .CorText::after{
+        content: "Vermelho";
+    }
+}
+
+@media screen and (min-width:1081px) and (max-width:1366px){
+    #page{
+        background-color: purple;
+    }
+     .CorText::after{
+        content: "Roxo";
+    }
+}
+@media screen and (min-width:1367px) and (max-width:1920px){
+    #page{
+        background-color: yellow;
+    }
+     .CorText::after{
+        content: "Amarelo";
+    }
+}
+@media screen and (min-width:1921px){
+    #page{
+        background-color: green;
+    }
+     .CorText::after{
+        content: "Verde";
+    }
+}
+
+
